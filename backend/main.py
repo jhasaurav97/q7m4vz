@@ -16,7 +16,7 @@ from analysis import (
 
 FRONTEND_ORIGINS = os.getenv(
     "FRONTEND_ORIGINS",
-    "http://localhost:5173",
+    "http://localhost:5173,https://windscope-dashboard.vercel.app",
 )
 
 app = FastAPI(title="WindScope API")
