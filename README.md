@@ -2,7 +2,10 @@
 
 WindScope is a full-stack pilot dashboard for analysing national UK wind generation forecasts against actual generation. It is designed around the January 2026 day-ahead electricity procurement decision period.
 
-> **Live application:** Deployment pending. This section must be updated with the verified Vercel application URL before assessment submission.
+> **Live application:** https://windscope-dashboard.vercel.app/  
+> **Backend API:** https://windscope-api-q7m4vz.onrender.com  
+> **API documentation:** https://windscope-api-q7m4vz.onrender.com/docs  
+> **Health check:** https://windscope-api-q7m4vz.onrender.com/health
 
 ## What the application does
 
@@ -184,7 +187,7 @@ AI tools (including ChatGPT) were used to assist with implementation guidance, c
 
 Before submitting the assessment:
 
-- [ ] Deploy the application and replace the pending live-application note above with the verified Vercel URL.
+- [x] Deploy the frontend to Vercel and backend to Render; add the verified URLs above.
 - [ ] Verify the deployed frontend and backend endpoints in a private/incognito browser session.
 - [ ] Record and upload the unlisted YouTube video, keeping both the customer-facing demo and technical review within the assessment's 10-minute total limit.
 - [ ] Re-check this README, repository visibility, deployment link, and video link before completing the submission form.
